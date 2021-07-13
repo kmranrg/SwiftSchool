@@ -22,3 +22,19 @@ print("\n3) let keyword")
 let x = 7;
 // x = 8; // this statement will throw an error because vaiables defined using `let` keyword can't be reassigned
 print(x)
+
+/*
+ OUTPUT:
+ 
+ 1) Printing Hello World using a variable
+ Hello World!
+
+ 2) Arithmetic Operations
+ Addition: 7
+ Subtraction: 3
+ Multiplication: 10
+ Division: 2
+
+ 3) let keyword
+ 7
+*/
