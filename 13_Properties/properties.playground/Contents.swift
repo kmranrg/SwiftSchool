@@ -35,12 +35,12 @@ print("------------------------")
 post.title = "Swift My Bestie"
 print(post.fullTitle) // it will just print the `title` value because `author` is still `nil`
 
+print("------------------------")
+
 let author = Person()
 author.name = "Kumar Anurag"
 
 post.author = author
-
-print("------------------------")
 
 print(post.fullTitle) // now we have values for both `title` and `author` so it wil print the `title` value then append it with ` by ` and then finally append it with the `author` value
 
