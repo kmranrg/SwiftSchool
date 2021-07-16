@@ -14,7 +14,7 @@ for item in animals {
 }
 
 print("\n3) Creating an empty array which can hold Int data")
-var numbers = [Int]()
+var numbers = Array<Int>() // Another Method: var numbers = [Int]()
 
 print("\n4) Adding data to an array")
 numbers += [20,100,240]
@@ -26,6 +26,9 @@ print(numbers)
 
 print("\n6) Total no of elements in array")
 print("Total Elements:",numbers.count)
+
+print("\n7) Print data-type of array")
+print(type(of: numbers))
 
 /*
  OUTPUT:
@@ -48,4 +51,7 @@ print("Total Elements:",numbers.count)
 
  6) Total no of elements in array
  Total Elements: 2
+
+ 7) Print data-type of array
+ Array<Int>
 */
